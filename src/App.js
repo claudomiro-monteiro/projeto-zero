@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { Carousel } from "./pages/Carousel/Carousel";
+import { Contato } from "./pages/Contato/Contato";
+import { FemininoAdulto } from "./pages/FemininoAdulto/FemininoAdulto";
+import { Localizacao } from "./pages/Localizacao/Localizacao";
+import { MasculinoAdulto } from "./pages/MasculinoAdulto/MasculinoAdulto";
+import { Navbar } from "./pages/Navbar/Navbar";
+import { QuemSomos } from "./pages/QuemSomos/QuemSomos";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <>
+        <Navbar />
+        <Carousel />
+        <FemininoAdulto />
+        <MasculinoAdulto />
+        <QuemSomos />
+        <Localizacao />
+        <Contato />
+      </>
     </div>
   );
 }
