@@ -21,7 +21,10 @@ export const Ul = styled.ul`
     justify-content: center;
     align-items: center;
     margin-left: auto;
-    /* flex-flow: row wrap; */
+
+    @media (max-width: 768px) {
+        display: none;
+    }
 `
 export const Li = styled.li`
     display: flex;
