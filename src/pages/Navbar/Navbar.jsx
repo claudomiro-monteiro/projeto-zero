@@ -2,11 +2,9 @@ import React, { useState } from 'react'
 import { Burger } from '../../components/ButtonBurger/Burger'
 import { DropdownFeminino } from '../../components/DropdownFemi/DropdownFeminino'
 import { DropdownMasculino } from '../../components/DropdownMasc/DropdownMasculino'
-import { Sidebar } from '../Sidebar/Sidebar'
-// import './style'
 import { Li, Link, Nav, NavLogo, Ul } from './style'
 
-export const Navbar = ({ sidebar, setSidebar, open, handleClick }) => {
+export const Navbar = ({ open, handleClick }) => {
 
     const [dropdownFemi, setDropdownFemi] = useState(false)
     const [dropdownMasc, setDropdownMasc] = useState(false)
@@ -49,7 +47,6 @@ export const Navbar = ({ sidebar, setSidebar, open, handleClick }) => {
                 <NavLogo>
                     Navbar
                 </NavLogo>
-                <Sidebar sidebar={sidebar} setSidebar={setSidebar} handleClick={handleClick} />
                 <Ul>
                     <Li onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
                         <Link to="/">Feminino</Link>
