@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Carousel } from "./pages/Carousel/Carousel";
 import { Contato } from "./pages/Contato/Contato";
 import { FemininoAdulto } from "./pages/FemininoAdulto/FemininoAdulto";
@@ -7,10 +8,29 @@ import { Navbar } from "./pages/Navbar/Navbar";
 import { QuemSomos } from "./pages/QuemSomos/QuemSomos";
 
 function App() {
+
+  const [open, setOpen] = useState(false);
+  const toggle = () => {
+    setOpen(!open);
+  }
+  const [sidebar, setSidebar] = useState(false)
+  const openSidebar = () => {
+    setSidebar(!sidebar)
+  }
+
+  const handleClick = () => {
+    toggle();
+    openSidebar();
+  }
+
   return (
     <div className="App">
       <>
-        <Navbar />
+        <Navbar sidebar={sidebar}
+          setSidebar={setSidebar}
+          open={open}
+          handleClick={handleClick}
+        />
         <Carousel />
         <FemininoAdulto />
         <MasculinoAdulto />

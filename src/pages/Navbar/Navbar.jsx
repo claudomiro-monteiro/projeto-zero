@@ -5,7 +5,7 @@ import { DropdownMasculino } from '../../components/DropdownMasc/DropdownMasculi
 // import './style'
 import { Li, Link, Nav, NavLogo, Ul } from './style'
 
-export const Navbar = () => {
+export const Navbar = ({ open, handleClick }) => {
 
     const [dropdownFemi, setDropdownFemi] = useState(false)
     const [dropdownMasc, setDropdownMasc] = useState(false)
@@ -97,7 +97,7 @@ export const Navbar = () => {
                         </Link>
                     </Li>
                 </Ul>
-                <Burger />
+                <Burger open={open} handleClick={handleClick}/>
             </Nav>
         </>
     )
