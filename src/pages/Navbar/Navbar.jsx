@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Burger } from '../../components/ButtonBurger/Burger'
 import { DropdownFeminino } from '../../components/DropdownFemi/DropdownFeminino'
 import { DropdownMasculino } from '../../components/DropdownMasc/DropdownMasculino'
 // import './style'
@@ -96,6 +97,7 @@ export const Navbar = () => {
                         </Link>
                     </Li>
                 </Ul>
+                <Burger />
             </Nav>
         </>
     )
