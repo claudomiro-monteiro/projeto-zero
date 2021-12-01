@@ -21,10 +21,7 @@ export const Ul = styled.ul`
     justify-content: center;
     align-items: center;
     margin-left: auto;
-
-    @media (max-width: 768px) {
-        display: none;
-    }
+    /* flex-flow: row wrap; */
 `
 export const Li = styled.li`
     display: flex;
