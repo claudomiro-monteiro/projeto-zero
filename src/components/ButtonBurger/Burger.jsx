@@ -19,7 +19,7 @@ const StyledBurger = styled.button`
     outline: none;
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 769px) {
       display: none;
   }
 
