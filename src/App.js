@@ -6,7 +6,10 @@ import { Localizacao } from "./pages/Localizacao/Localizacao";
 import { MasculinoAdulto } from "./pages/MasculinoAdulto/MasculinoAdulto";
 import { Navbar } from "./pages/Navbar/Navbar";
 import { QuemSomos } from "./pages/QuemSomos/QuemSomos";
+<<<<<<< HEAD
 import './App.css';
+=======
+>>>>>>> parent of c37e8cd... add
 
 function App() {
 
