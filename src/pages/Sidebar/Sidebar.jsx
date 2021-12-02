@@ -1,52 +1,21 @@
-import React, { useRef, useState } from 'react'
-import { animateScroll as scroll } from 'react-scroll'
-import { Ul, Li, Link, SidebarNav, Avatar, Background, RedeUl, RedeLi, Hr, LinkRede } from './style'
+import React from 'react'
+import { Ul, Li, Link, SidebarNav, Avatar, RedeUl, RedeLi, Hr, LinkRede } from './style'
 
 // import avatar from '../../assets/1009.png'
 
-import { DropdownFeminino } from '../../components/DropdownFemi/DropdownFeminino'
-import { DropdownMasculino } from '../../components/DropdownMasc/DropdownMasculino'
+// import { DropdownFeminino } from '../../components/DropdownFemi/DropdownFeminino'
+// import { DropdownMasculino } from '../../components/DropdownMasc/DropdownMasculino'
 import * as AiIcons from 'react-icons/ai'
 import * as RiIcons from 'react-icons/ri'
 import * as FaIcons from 'react-icons/fa'
 import * as GiIcons from 'react-icons/gi'
 
-export const Sidebar = ({ sidebar, setSidebar, handleClick }) => {
-
-    const modalRef = useRef();
-
-    const closedSidenav = (e) => {
-        if (modalRef.current === e.target) {
-            setSidebar(false);
-        }
-    };
-
-    const scrollToTop = () => {
-        scroll.scrollToTop();
-        handleClick();
-    }
-    const [dropdownFemi, setDropdownFemi] = useState(false)
-    const handleClickFemi = () => {
-        setDropdownFemi(!dropdownFemi)
-        setDropdownMasc(false)
-    }
-
-    const [dropdownMasc, setDropdownMasc] = useState(false)
-    const handleClickMasc = () => {
-        setDropdownMasc(!dropdownMasc)
-        setDropdownFemi(false)
-    }
-
-    const closeDropdown = () => {
-        handleClick();
-        setDropdownFemi(false)
-        setDropdownMasc(false)
-    }
+export const Sidebar = () => {
 
     return (
         <>
-            <Background sidebar={sidebar} ref={modalRef} onClick={closedSidenav}>
-                <SidebarNav sidebar={sidebar}>
+            {/* <Background> */}
+                <SidebarNav>
                     <Ul>
                         <Avatar>
                             Imagem
@@ -61,25 +30,24 @@ export const Sidebar = ({ sidebar, setSidebar, handleClick }) => {
                                 offset={-60}
                                 duration={400}
                                 delay={100}
-                                onClick={scrollToTop}
                             >
                                 <AiIcons.AiFillHome />
                                 Inicio
                             </Link>
                         </Li>
                         <Li>
-                            <Link to="/" onClick={handleClickFemi}>
+                            <Link to="/" >
                                 <FaIcons.FaFemale />
                                 Feminino
                             </Link>
-                            {dropdownFemi ? (<DropdownFeminino closeDropdown={closeDropdown} />) : null}
+                            {/* {dropdownFemi ? (<DropdownFeminino closeDropdown={closeDropdown} />) : null} */}
                         </Li>
                         <Li>
-                            <Link to="/" onClick={handleClickMasc} >
+                            <Link to="/" >
                                 <FaIcons.FaMale />
                                 Masculino
                             </Link>
-                            {dropdownMasc ? (<DropdownMasculino closeDropdown={closeDropdown} />) : null}
+                            {/* {dropdownMasc ? (<DropdownMasculino closeDropdown={closeDropdown} />) : null} */}
                         </Li>
                         <Li>
                             <Link activeClass="active"
@@ -90,7 +58,6 @@ export const Sidebar = ({ sidebar, setSidebar, handleClick }) => {
                                 offset={-52}
                                 duration={400}
                                 delay={100}
-                                onClick={handleClick}
                             >
                                 <RiIcons.RiUserSharedFill />
                                 Quem Somos
@@ -105,7 +72,6 @@ export const Sidebar = ({ sidebar, setSidebar, handleClick }) => {
                                 offset={-60}
                                 duration={400}
                                 delay={100}
-                                onClick={handleClick}
                             >
                                 <GiIcons.GiPositionMarker />
                                 Localização
@@ -120,7 +86,6 @@ export const Sidebar = ({ sidebar, setSidebar, handleClick }) => {
                                 offset={-60}
                                 duration={400}
                                 delay={100}
-                                onClick={handleClick}
                             >
                                 <AiIcons.AiFillMail />
                                 Contato
@@ -146,7 +111,7 @@ export const Sidebar = ({ sidebar, setSidebar, handleClick }) => {
                         </RedeLi>
                     </RedeUl>
                 </SidebarNav>
-            </Background>
+            {/* </Background> */}
         </>
     )
 }
