@@ -49,7 +49,7 @@ export const Navbar = ({ sidebar, setSidebar, open, handleClick }) => {
                 <NavLogo>
                     Navbar
                 </NavLogo>
-                <Sidebar sidebar={sidebar} setSidebar={setSidebar} handleClick={handleClick} />
+                <Sidebar  />
                 <Ul>
                     <Li onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
                         <Link to="/">Feminino</Link>
