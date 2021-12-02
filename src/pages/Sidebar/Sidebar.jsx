@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import { animateScroll as scroll } from 'react-scroll'
+import { FaHome } from "react-icons/fa";
+
 import { DropdownFeminino } from '../../components/DropdownFemi/DropdownFeminino'
 import { DropdownMasculino } from '../../components/DropdownMasc/DropdownMasculino'
 import { Avatar, Background, Li, Link, SidebarNav, Ul } from './style'
@@ -42,6 +44,7 @@ export const Sidebar = () => {
                             delay={100}
                             onClick={scrollToTop}
                             >
+                                <FaHome />
                                 Inicio
                             </Link>
                         </Li>
