@@ -90,7 +90,7 @@ export const RedeUl = styled.ul`
 export const RedeLi = styled.li`
     display: flex;
     cursor: pointer;
-    margin-bottom: 2rem;
+    margin: 2rem 0;
 `
 export const LinkRede = styled.a`
     display: flex;

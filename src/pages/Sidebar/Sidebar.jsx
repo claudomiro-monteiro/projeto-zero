@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import { animateScroll as scroll } from 'react-scroll'
-import { FaFemale, FaHome, FaMailBulk, FaMale, FaMapMarkerAlt } from "react-icons/fa";
+import { FaFacebook, FaFemale, FaHome, FaInstagram, FaMailBulk, FaMale, FaMapMarkerAlt, FaWhatsapp } from "react-icons/fa";
 import { RiUserSharedFill } from "react-icons/ri";
 
 import { DropdownFeminino } from '../../components/DropdownFemi/DropdownFeminino'
 import { DropdownMasculino } from '../../components/DropdownMasc/DropdownMasculino'
-import { Avatar, Background, Li, Link, SidebarNav, Ul } from './style'
+import { Avatar, Background, Hr, Li, Link, LinkRede, RedeLi, RedeUl, SidebarNav, Ul } from './style'
 
 export const Sidebar = () => {
 
@@ -106,6 +106,24 @@ export const Sidebar = () => {
                             </Link>
                         </Li>
                     </Ul>
+                    <Hr />
+                    <RedeUl>
+                        <RedeLi>
+                            <LinkRede href="https://wa.me/5512988383481">
+                                <FaWhatsapp size="3rem"/>
+                            </LinkRede>
+                        </RedeLi>
+                        <RedeLi>
+                            <LinkRede href="https://www.facebook.com/Sensual-Moda-Intima-708833402783149">
+                                <FaFacebook size="3rem"/>
+                            </LinkRede>
+                        </RedeLi>
+                        <RedeLi>
+                            <LinkRede href="https://www.instagram.com/sensual.moda.intima/">
+                                <FaInstagram size="3rem"/>
+                            </LinkRede>
+                        </RedeLi>
+                    </RedeUl>
                 </SidebarNav>
             </Background>
         </>
