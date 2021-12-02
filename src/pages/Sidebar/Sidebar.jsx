@@ -11,6 +11,7 @@ export const Sidebar = () => {
 
     const scrollToTop = () => {
         scroll.scrollToTop();
+        closeDropdown()
 
     }
 
@@ -24,6 +25,11 @@ export const Sidebar = () => {
     const handleClickMasc = () => {
         setDropdowmMasc(!dropdowmMasc)
         setDropdowmFemi(false)
+    }
+
+    const closeDropdown = () => {
+        setDropdowmFemi(false)
+        setDropdowmMasc(false)
     }
 
     return (
@@ -72,6 +78,7 @@ export const Sidebar = () => {
                             offset={-60}
                             duration={400}
                             delay={100}
+                            onClick={closeDropdown}
                             >
                                 <RiUserSharedFill />
                                 Quem Somos
@@ -86,6 +93,7 @@ export const Sidebar = () => {
                             offset={-60}
                             duration={400}
                             delay={100}
+                            onClick={closeDropdown}
                             >
                                 <FaMapMarkerAlt />
                                 Localização
@@ -100,6 +108,7 @@ export const Sidebar = () => {
                             offset={-60}
                             duration={400}
                             delay={100}
+                            onClick={closeDropdown}
                             >
                                 <FaMailBulk />
                                 Contato
