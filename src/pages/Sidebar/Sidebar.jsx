@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { animateScroll as scroll } from 'react-scroll'
-import { FaHome } from "react-icons/fa";
+import { FaFemale, FaHome, FaMailBulk, FaMale, FaMapMarkerAlt } from "react-icons/fa";
+import { RiUserSharedFill } from "react-icons/ri";
 
 import { DropdownFeminino } from '../../components/DropdownFemi/DropdownFeminino'
 import { DropdownMasculino } from '../../components/DropdownMasc/DropdownMasculino'
@@ -50,12 +51,14 @@ export const Sidebar = () => {
                         </Li>
                         <Li>
                             <Link to="/" onClick={handleClickFemi}>
+                                <FaFemale />
                                 Pijama Feminino
                             </Link>
                             {dropdowmFemi ? (<DropdownFeminino />) : null}
                         </Li>
                         <Li>
                             <Link to="/" onClick={handleClickMasc}>
+                                <FaMale />
                                 Pijama Masculino
                             </Link>
                             {dropdowmMasc ? (<DropdownMasculino />) : null}
@@ -70,6 +73,7 @@ export const Sidebar = () => {
                             duration={400}
                             delay={100}
                             >
+                                <RiUserSharedFill />
                                 Quem Somos
                             </Link>
                         </Li>
@@ -83,6 +87,7 @@ export const Sidebar = () => {
                             duration={400}
                             delay={100}
                             >
+                                <FaMapMarkerAlt />
                                 Localização
                             </Link>
                         </Li>
@@ -96,6 +101,7 @@ export const Sidebar = () => {
                             duration={400}
                             delay={100}
                             >
+                                <FaMailBulk />
                                 Contato
                             </Link>
                         </Li>
