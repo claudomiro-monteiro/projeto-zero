@@ -15,7 +15,7 @@ export const Dropdown = styled.ul`
         display: flex;
         flex-flow: column;
         top: 0;
-        background: var(--color);
+        background: var(--colorrgba);
         border-radius: 0;
         width: 100%;
     }
@@ -31,10 +31,11 @@ export const Link = styled(LinkS)`
     font-size: 1.8rem;
     width: 100%;
     padding: 0.8rem 2rem;
+    padding-left: 6rem;
     color: var(--backgroundnavbar);
 
         &:hover {
-            background: var(--goldenrod);
+            background: var(--goldenrodrgba);
             color: var(--color);
             cursor: pointer;
             transition: all 0.2s ease-out;

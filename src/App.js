@@ -26,7 +26,8 @@ function App() {
   return (
     <div className="App">
       <>
-        <Navbar 
+        <Navbar sidebar={sidebar}
+          setSidebar={setSidebar}
           open={open}
           handleClick={handleClick}
         />

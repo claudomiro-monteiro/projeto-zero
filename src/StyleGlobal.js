@@ -9,7 +9,9 @@ export const GlobalStyle = createGlobalStyle`
 
     :root {
         --goldenrod: #DAA520;
+        --goldenrodrgba: rgba(218,165,32,0.9);
         --color: #1c1c1c;
+        --colorrgba: rgba(28,28,28,0.9);
         --background: #8A2BE2;
         --card: #d3d3d3;
         --backgroundnavbar:#FDFEFE;

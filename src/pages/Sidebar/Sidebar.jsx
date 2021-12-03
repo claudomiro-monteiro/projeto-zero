@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useRef, useState } from 'react'
 import { animateScroll as scroll } from 'react-scroll'
 import { FaFacebook, FaFemale, FaHome, FaInstagram, FaMailBulk, FaMale, FaMapMarkerAlt, FaWhatsapp } from "react-icons/fa";
 import { RiUserSharedFill } from "react-icons/ri";
@@ -7,7 +7,16 @@ import { DropdownFeminino } from '../../components/DropdownFemi/DropdownFeminino
 import { DropdownMasculino } from '../../components/DropdownMasc/DropdownMasculino'
 import { Avatar, Background, Hr, Li, Link, LinkRede, RedeLi, RedeUl, SidebarNav, Ul } from './style'
 
-export const Sidebar = () => {
+export const Sidebar = ({sidebar, setSidebar, handleClick}) => {
+
+    const modalRef = useRef()
+
+    const closedSidenav = (e) => {
+        if(modalRef.current === e.target) {
+            setSidebar(false)
+            closeDropdown()
+        }
+    }
 
     const scrollToTop = () => {
         scroll.scrollToTop();
@@ -28,14 +37,15 @@ export const Sidebar = () => {
     }
 
     const closeDropdown = () => {
+        handleClick()
         setDropdowmFemi(false)
         setDropdowmMasc(false)
     }
 
     return (
         <>
-            <Background>
-                <SidebarNav>
+            <Background sidebar={sidebar} ref={modalRef} onClick={closedSidenav}>
+                <SidebarNav sidebar={sidebar}> 
                     <Avatar>
                         Imagem
                     </Avatar>
@@ -60,14 +70,14 @@ export const Sidebar = () => {
                                 <FaFemale />
                                 Pijama Feminino
                             </Link>
-                            {dropdowmFemi ? (<DropdownFeminino />) : null}
+                            {dropdowmFemi ? (<DropdownFeminino closeDropdown={closeDropdown} />) : null}
                         </Li>
                         <Li>
                             <Link to="/" onClick={handleClickMasc}>
                                 <FaMale />
                                 Pijama Masculino
                             </Link>
-                            {dropdowmMasc ? (<DropdownMasculino />) : null}
+                            {dropdowmMasc ? (<DropdownMasculino closeDropdown={closeDropdown} />) : null}
                         </Li>
                         <Li>
                             <Link activeClass="active"

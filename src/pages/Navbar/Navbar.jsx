@@ -6,7 +6,7 @@ import { Sidebar } from '../Sidebar/Sidebar'
 // import './style'
 import { Li, Link, Nav, NavLogo, Ul } from './style'
 
-export const Navbar = ({ open, handleClick }) => {
+export const Navbar = ({ sidebar, setSidebar, open, handleClick }) => {
 
     const [dropdownFemi, setDropdownFemi] = useState(false)
     const [dropdownMasc, setDropdownMasc] = useState(false)
@@ -49,7 +49,7 @@ export const Navbar = ({ open, handleClick }) => {
                 <NavLogo>
                     Navbar
                 </NavLogo>
-                <Sidebar  />
+                <Sidebar  sidebar={sidebar} setSidebar={setSidebar} handleClick={handleClick}/>
                 <Ul>
                     <Li onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
                         <Link to="/">Feminino</Link>

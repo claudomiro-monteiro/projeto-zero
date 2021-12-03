@@ -2,7 +2,7 @@ import React from 'react'
 import { DropdowmMasculinoItems } from '../../components/DropdownMasc/DropdownmasculinoItems'
 import { Dropdown, List, Link } from './style'
 
-export const DropdownMasculino = () => {
+export const DropdownMasculino = ({ closeDropdown }) => {
     return (
         <Dropdown>
             {DropdowmMasculinoItems.map((item, index) => {
@@ -15,7 +15,9 @@ export const DropdownMasculino = () => {
                             hashSpy={true}
                             offset={-60}
                             duration={400}
-                            delay={100}>
+                            delay={100}
+                            onClick={closeDropdown}
+                            >
                             {item.title}
                         </Link>
                     </List>

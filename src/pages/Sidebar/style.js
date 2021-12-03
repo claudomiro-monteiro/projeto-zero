@@ -7,6 +7,7 @@ export const Background = styled.div`
     width: 100vw;
     height: 100vh;
     background: rgba(0, 0, 0, 0.8);
+    left: 0;
     top: ${({ sidebar }) => (sidebar ? '6rem' : '-100%')};
     z-index: 3;
 `
@@ -21,7 +22,7 @@ export const SidebarNav = styled.nav`
     position: fixed;
     top: 6rem;
     right: 0;
-    /* right: ${({ sidebar }) => (sidebar ? '0' : '-100%')}; */
+    right: ${({ sidebar }) => (sidebar ? '0' : '-100%')};
     transition: 500ms;
     z-index: 3;
     overflow-y: auto;
