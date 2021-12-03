@@ -7,6 +7,7 @@ export const Background = styled.div`
     width: 100vw;
     height: 100vh;
     background: rgba(0, 0, 0, 0.8);
+    top: 0;
     left: 0;
     top: ${({ sidebar }) => (sidebar ? '6rem' : '-100%')};
     z-index: 3;
@@ -85,7 +86,7 @@ export const RedeUl = styled.ul`
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
     height: 100%;
 `

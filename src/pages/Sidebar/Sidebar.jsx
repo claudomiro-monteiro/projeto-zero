@@ -86,7 +86,7 @@ export const Sidebar = ({sidebar, setSidebar, handleClick}) => {
                             spy={true}
                             smooth={true}
                             hashSpy={true}
-                            offset={-60}
+                            offset={-54}
                             duration={400}
                             delay={100}
                             onClick={closeDropdown}
@@ -101,7 +101,7 @@ export const Sidebar = ({sidebar, setSidebar, handleClick}) => {
                             spy={true}
                             smooth={true}
                             hashSpy={true}
-                            offset={-60}
+                            offset={-54}
                             duration={400}
                             delay={100}
                             onClick={closeDropdown}
@@ -116,7 +116,7 @@ export const Sidebar = ({sidebar, setSidebar, handleClick}) => {
                             spy={true}
                             smooth={true}
                             hashSpy={true}
-                            offset={-60}
+                            offset={-54}
                             duration={400}
                             delay={100}
                             onClick={closeDropdown}

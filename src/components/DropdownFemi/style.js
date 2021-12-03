@@ -32,7 +32,6 @@ export const Link = styled(LinkS)`
     font-size: 1.8rem;
     width: 100%;
     padding: 0.8rem 2rem;
-    padding-left: 6rem;
     color: var(--backgroundnavbar);
 
         &:hover {
@@ -40,5 +39,9 @@ export const Link = styled(LinkS)`
             color: var(--color);
             cursor: pointer;
             transition: all 0.2s ease-out;
+        }
+
+        @media (max-width: 768px) {
+            padding-left: 6rem;
         }
 `
