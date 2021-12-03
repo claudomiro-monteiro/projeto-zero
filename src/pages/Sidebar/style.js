@@ -7,9 +7,9 @@ export const Background = styled.div`
     width: 100vw;
     height: 100vh;
     background: rgba(0, 0, 0, 0.8);
-    top: 0;
-    left: 0;
-    top: ${({ sidebar }) => (sidebar ? '6rem' : '-100%')};
+    top: 6rem;
+    /* left: 0; */
+    right: ${({ sidebar }) => (sidebar ? '0' : '-100%')};
     z-index: 3;
 `
 
