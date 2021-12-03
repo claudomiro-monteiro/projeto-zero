@@ -10,6 +10,7 @@ export const Nav = styled.nav`
     font: 500 1.6rem 'Yuji Syuku', serif;
     padding: 0 4rem;
     position: fixed;
+    z-index: 5;
 `
 export const NavLogo = styled.div`
     display: flex;
