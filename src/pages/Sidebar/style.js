@@ -19,9 +19,9 @@ export const SidebarNav = styled.nav`
     flex-flow: column;
     justify-content: flex-start;
     width: 30rem;
-    height: 90%;
+    height: 100%;
     position: fixed;
-    top: 6rem;
+    /* top: 6rem; */
     right: 0;
     right: ${({ sidebar }) => (sidebar ? '0' : '-100%')};
     transition: 500ms;
