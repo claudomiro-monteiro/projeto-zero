@@ -2,6 +2,7 @@ import React, { useRef, useState } from 'react'
 import { animateScroll as scroll } from 'react-scroll'
 import { FaFacebook, FaFemale, FaHome, FaInstagram, FaMailBulk, FaMale, FaMapMarkerAlt, FaWhatsapp } from "react-icons/fa";
 import { RiUserSharedFill } from "react-icons/ri";
+import avatar from '../../assets/1009.png'
 
 import { DropdownFeminino } from '../../components/DropdownFemi/DropdownFeminino'
 import { DropdownMasculino } from '../../components/DropdownMasc/DropdownMasculino'
@@ -47,7 +48,7 @@ export const Sidebar = ({sidebar, setSidebar, handleClick}) => {
             <Background sidebar={sidebar} ref={modalRef} onClick={closedSidenav}>
                 <SidebarNav sidebar={sidebar}> 
                     <Avatar>
-                        Imagem
+                        <img src={avatar} alt="avatar" onClick={closeDropdown}/>
                     </Avatar>
                     <Ul>
                         <Li>
