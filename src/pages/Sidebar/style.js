@@ -19,7 +19,7 @@ export const SidebarNav = styled.nav`
     flex-flow: column;
     justify-content: flex-start;
     width: 30rem;
-    height: 100%;
+    height: 90%;
     position: fixed;
     /* top: 6rem; */
     right: 0;
@@ -86,7 +86,7 @@ export const RedeUl = styled.ul`
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    align-items: flex-start;
+    /* align-items: center; */
     width: 100%;
     height: 100%;
 `
