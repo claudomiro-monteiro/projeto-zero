@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { Carousel } from "./pages/Carousel/Carousel";
+// import { Carousel } from "./pages/Carousel/Carousel";
+import { CarouselImage } from "./pages/Carousel/CarouselImage";
 import { Contato } from "./pages/Contato/Contato";
 import { FemininoAdulto } from "./pages/FemininoAdulto/FemininoAdulto";
 import { Localizacao } from "./pages/Localizacao/Localizacao";
@@ -31,7 +32,7 @@ function App() {
           open={open}
           handleClick={handleClick}
         />
-        <Carousel />
+        <CarouselImage />
         <FemininoAdulto />
         <MasculinoAdulto />
         <QuemSomos />
