@@ -9,7 +9,7 @@ import img04 from '../../assets/slide_05.png'
 
 export const CarouselImage = () => {
     return (
-        <div>
+        <>
             <Carousel>
                 <CarouselItem>
                     <img src={img01} alt="slide" />
@@ -24,7 +24,7 @@ export const CarouselImage = () => {
                     <img src={img04} alt="slide" />
                 </CarouselItem>
             </Carousel>
-        </div>
+        </>
     )
 }
 

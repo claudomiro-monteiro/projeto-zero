@@ -1,34 +1,42 @@
 export const DropdowmFemininoItems = [
     {
         title: 'Feminino Adulto',  
-        path: 'femininoadulto'
+        path: 'femininoadulto',
+        offset: 0
     },
     {
         title: 'Feminino Infantil',
-        path: 'masculinoadulto'
+        path: 'masculinoadulto',
+        offset: -60
     },
     {
         title: 'Camisola',
-        path: 'camisola'
+        path: 'camisola',
+        offset: 0
     },
     {
         title: 'Calcinha',
-        path: 'calcinha'
+        path: 'calcinha',
+        offset: 0
     },
     {
         title: 'Soutien',
-        path: 'soutien'
+        path: 'soutien',
+        offset: 0
     },
     {
         title: 'Linha Gestante',
-        path: 'gestante'
+        path: 'gestante',
+        offset: 0
     },
     {
         title: 'Linha Sexy',
-        path: 'sexy'
+        path: 'sexy',
+        offset: 0
     },
     {
         title: 'SexShop',
-        path: 'sexshop'
+        path: 'sexshop',
+        offset: 0
     }
 ]
