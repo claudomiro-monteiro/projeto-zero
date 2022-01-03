@@ -8,7 +8,7 @@ export const App = styled.div`
 export const CarouselDiv = styled.div`
   overflow: hidden;
   position: relative;
-  top: 6rem;
+  /* top: 6rem; */
 `;
 
 export const Inner = styled.div`

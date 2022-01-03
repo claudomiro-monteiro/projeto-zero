@@ -10,11 +10,17 @@ export const GlobalStyle = createGlobalStyle`
     :root {
         --goldenrod: #DAA520;
         --goldenrodrgba: rgba(218,165,32,0.9);
-        --color: #1c1c1c;
+        --color: #1C1C1C;
+        --colorwhite: #FCFCFC;
         --colorrgba: rgba(28,28,28,0.9);
         --background: #8A2BE2;
-        --card: #d3d3d3;
+        --card: #FCFCFC;
+        --cardrgba: rgba(252, 252, 252, 0.8);
         --backgroundnavbar:#FDFEFE;
+
+        --roboto: 400 1.6rem 'Roboto Slab', serif;
+        --playfair: 400 1.6rem 'Playfair Display', serif;
+        --yuji: 400 1.6rem 'Yuji Syuku', serif;
 
         font-size: 62.5%;
 
@@ -26,10 +32,14 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
+        display: flex;
+        justify-content: center;
         background: var(--background);
         color: var(--color);
         font: 500 1.6rem 'Playfair Display', serif;
         height: 100vh;
+        width: 100%;
+        /* overflow-x: hidden; */
     }
 
     li, a {

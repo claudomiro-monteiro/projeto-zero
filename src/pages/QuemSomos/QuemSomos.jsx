@@ -1,10 +1,10 @@
 import React from 'react'
-import { Container } from './style'
+import { ContainerWapper, Title } from '../../components/ContainerWapper/style'
 
 export const QuemSomos = () => {
     return (
-        <Container id="quemsomos">
-            Quem Somos
-        </Container>
+        <ContainerWapper id="quemsomos">
+            <Title>Quem Somos</Title>
+        </ContainerWapper>
     )
 }

@@ -7,6 +7,7 @@ import { Localizacao } from "./pages/Localizacao/Localizacao";
 import { MasculinoAdulto } from "./pages/MasculinoAdulto/MasculinoAdulto";
 import { Navbar } from "./pages/Navbar/Navbar";
 import { QuemSomos } from "./pages/QuemSomos/QuemSomos";
+import { Footer } from "./pages/Footer/Footer";
 
 function App() {
 
@@ -38,6 +39,7 @@ function App() {
         <QuemSomos />
         <Localizacao />
         <Contato />
+        <Footer />
       </>
     </div>
   );

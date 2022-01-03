@@ -9,7 +9,10 @@ export const Nav = styled.nav`
     background: var(--goldenrod);
     font: 500 1.6rem 'Yuji Syuku', serif;
     padding: 0 4rem;
-    position: fixed;
+    /* position: fixed; */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
     z-index: 5;
 `
 export const NavLogo = styled.div`

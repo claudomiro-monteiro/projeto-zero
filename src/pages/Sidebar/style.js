@@ -48,6 +48,7 @@ export const Ul = styled.ul`
     width: 100%;
     flex-flow: column;
     margin-bottom: 2rem;
+    font: var(--yuji);
 `
 
 export const Li = styled.li`
