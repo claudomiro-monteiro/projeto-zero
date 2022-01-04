@@ -30,8 +30,7 @@ export const CardContainer = styled.div`
 `;
 
 export const CardTitle = styled.div`
-    /* font-size: 1.8rem; */
-    /* font-weight: bold; */
+    font-size: 1.8rem;
     text-align: center;
     padding: 1rem;
 `;
@@ -50,8 +49,6 @@ export const CardBody = styled.div`
         display: flex;
         justify-content: center;
         margin: 1.2rem;
-        /* font-size: 1.6rem; */
-        /* font-weight: bold; */
         text-transform: capitalize; 
     }
 `;

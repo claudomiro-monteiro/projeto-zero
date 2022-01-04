@@ -22,7 +22,7 @@ export const FemininoAdulto = () => {
                                 <p>{card.tamanho}</p>
                                 <p>{card.preco}</p>
                             </CardBody>
-                            <Button />
+                            <Button card={card}/>
                         </CardContainer>
                     )
                 })}

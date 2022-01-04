@@ -1,5 +1,6 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components';
+import Modal from '../Modal/Modal';
 
 const Container = styled.div`
     display: flex;
@@ -32,18 +33,18 @@ const Botao = styled.button`
       }
 `;
 
-const Button = () => {
+const Button = ({ card }) => {
 
-    // const [showModal, setShowModal] = useState(false)
-    // const openModal = () => {
-    //     setShowModal(prev => !prev)
-    // }
-    
+    const [showModal, setShowModal] = useState(false)
+    const openModal = () => {
+        setShowModal(prev => !prev)
+    }
+
     return (
         <>
             <Container>
-                <Botao>Saiba + </Botao>
-                {/* <Modal showModal={showModal} setShowModal={setShowModal} card={card} /> */}
+                <Botao onClick={openModal}>Saiba + </Botao>
+                <Modal showModal={showModal} setShowModal={setShowModal} card={card} />
             </Container>
         </>
     )

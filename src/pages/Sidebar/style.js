@@ -6,7 +6,7 @@ export const Background = styled.div`
     display: flex;
     width: 100vw;
     height: 100vh;
-    background: rgba(0, 0, 0, 0.8);
+    background: var(--backgroundrgba);
     top: 6rem;
     /* left: 0; */
     right: ${({ sidebar }) => (sidebar ? '0' : '-102%')};

@@ -14,6 +14,7 @@ export const GlobalStyle = createGlobalStyle`
         --colorwhite: #FCFCFC;
         --colorrgba: rgba(28,28,28,0.9);
         --background: #8A2BE2;
+        --backgroundrgba: rgba(0, 0, 0, 0.8);
         --card: #FCFCFC;
         --cardrgba: rgba(252, 252, 252, 0.8);
         --backgroundnavbar:#FDFEFE;
