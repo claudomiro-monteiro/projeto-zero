@@ -1,6 +1,6 @@
 import React, {useRef} from 'react'
 import styled from 'styled-components';
-// import { MdClose } from 'react-icons/md';
+import { MdClose } from 'react-icons/md';
 
 const Background = styled.div`
     width: 100%;
@@ -69,22 +69,22 @@ const ModalContent = styled.div`
     }
 `;
 
-// const CloseModalButton = styled(MdClose)`
-//     cursor: pointer;
-//     margin: 1rem;
-//     margin-left: auto;
-//     width: 3.2rem;
-//     height: 3.2rem;
-//     padding: 0;
-//     z-index: 10;
-// `;
+const CloseModalButton = styled(MdClose)`
+    cursor: pointer;
+    margin: 1rem;
+    margin-left: auto;
+    width: 3.2rem;
+    height: 3.2rem;
+    padding: 0;
+    z-index: 10;
+`;
 
 const Modal = ({ showModal, setShowModal, card }) => {
     const modalRef = useRef()
 
-    // const closeModal = () => {
-    //     setShowModal((prev) => !prev);
-    //   };
+    const closeModal = () => {
+        setShowModal((prev) => !prev);
+      };
 
     const closedModal = e => {
         if (modalRef.current === e.target) {
@@ -113,7 +113,7 @@ const Modal = ({ showModal, setShowModal, card }) => {
                                 </ModalWrapper>
                             )
                         })}
-                        {/* <CloseModalButton aria-label='Close Modal' onClick={closeModal} /> */}
+                        <CloseModalButton aria-label='Close Modal' onClick={closeModal} />
                     </Container>
                 </Background>
             ) : null}
