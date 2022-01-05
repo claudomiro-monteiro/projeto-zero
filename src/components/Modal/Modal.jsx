@@ -1,6 +1,6 @@
 import React, {useRef} from 'react'
 import styled from 'styled-components';
-import { MdClose } from 'react-icons/md';
+import { IoMdClose } from 'react-icons/io';
 
 const Background = styled.div`
     width: 100%;
@@ -69,7 +69,7 @@ const ModalContent = styled.div`
     }
 `;
 
-const CloseModalButton = styled(MdClose)`
+const CloseModalButton = styled(IoMdClose)`
     cursor: pointer;
     margin: 1rem;
     margin-left: auto;
