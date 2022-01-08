@@ -43,5 +43,6 @@ export const Link = styled(LinkS)`
 
         @media (max-width: 768px) {
             padding-left: 6rem;
+            font-size: 2rem;
         }
 `

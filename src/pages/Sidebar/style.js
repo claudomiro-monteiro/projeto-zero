@@ -64,7 +64,7 @@ export const Li = styled.li`
 export const Link = styled(LinkS)`
     display: flex;
     align-items: center;
-    font-size: 1.8rem;
+    font-size: 2rem;
     padding: 0.8rem 2rem;
     color: var(--color);
     width: 100%;

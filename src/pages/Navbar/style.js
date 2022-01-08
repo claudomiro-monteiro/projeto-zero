@@ -3,6 +3,7 @@ import { Link as LinkS } from 'react-scroll';
 
 export const Nav = styled.nav`
     display: flex;
+    justify-content: center;
     align-items: center;
     width: 100%;
     height: 6rem;
@@ -18,7 +19,16 @@ export const Nav = styled.nav`
 export const NavLogo = styled.div`
     display: flex;
     align-items: center;
-    font-size: 2rem;
+
+    img {
+        cursor: pointer;
+    }
+        
+
+    @media (max-width: 768px) {
+        display: flex;
+        justify-content: center;
+    }
 `
 export const Ul = styled.ul`
     display: flex;

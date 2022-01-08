@@ -24,7 +24,8 @@ const Botao = styled.button`
 
       &&:hover {
           color: var(--colorwhite);
-          box-shadow: 0 0 0.3rem var(--color);
+          /* box-shadow: 0 0 0.3rem var(--color); */
+          filter: brightness(0.9);
           transition: all 0.3s ease-in-out;
       }
 
