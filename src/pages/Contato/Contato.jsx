@@ -2,7 +2,8 @@ import React, { useState } from 'react'
 import { ContainerWapper, Title } from '../../components/ContainerWapper/style'
 import { useFormik } from "formik";
 import * as Yup from "yup";
-import { IoMdSend } from 'react-icons/io'
+// import { IoMdSend } from 'react-icons/io'
+import * as MdIcons from 'react-icons/md'
 import { mask as masker, unMask } from "remask";
 import { Body, Button, ButtonMsg, Form, InputData, Label, Left, Right, Wrapper } from './style';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -171,7 +172,7 @@ export const Contato = () => {
                         <Button>
                             <button type="submit">
                                 {spinner && <FontAwesomeIcon icon={faSpinner} spin />}
-                                {!spinner && <span>Enviar <IoMdSend /> </span>}
+                                {!spinner && <span>Enviar <MdIcons.MdSend /> </span>}
                             </button>
                         </Button>
                     </ButtonMsg>
