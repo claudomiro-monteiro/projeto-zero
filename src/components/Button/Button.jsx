@@ -22,7 +22,7 @@ const Botao = styled.button`
       cursor: pointer;
       font: var(--roboto) ;
 
-      &&:hover {
+      &:hover {
           color: var(--colorwhite);
           /* box-shadow: 0 0 0.3rem var(--color); */
           filter: brightness(0.9);

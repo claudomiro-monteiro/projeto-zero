@@ -18,6 +18,9 @@ export const GlobalStyle = createGlobalStyle`
         --card: #FCFCFC;
         --cardrgba: rgba(252, 252, 252, 0.8);
         --backgroundnavbar:#FDFEFE;
+        --borderbotton: 0.1rem solid #333333;
+        --msg: #3CB371;
+        --msgerro: #FC0101;
 
         --roboto: 400 1.6rem 'Roboto Slab', serif;
         --playfair: 400 1.6rem 'Playfair Display', serif;
