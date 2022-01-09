@@ -2,11 +2,11 @@ import React, { useState } from 'react'
 import { ContainerWapper, Title } from '../../components/ContainerWapper/style'
 import { useFormik } from "formik";
 import * as Yup from "yup";
-// import { MdSend } from 'react-icons/md'
+import { IoSendSharp } from 'react-icons/io5'
 import { mask as masker, unMask } from "remask";
 import { Body, Button, ButtonMsg, Form, InputData, Label, Left, Right, Wrapper } from './style';
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faSpinner } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSpinner } from "@fortawesome/free-solid-svg-icons";
 import axios from 'axios';
 
 const InputMask = ({ mask, value, onChange, ...props }) => {
@@ -170,8 +170,8 @@ export const Contato = () => {
                         {msgOk && <span className="msg">Mensagem enviada com sucesso!</span>}
                         <Button>
                             <button type="submit">
-                                {/* {spinner && <FontAwesomeIcon icon={faSpinner} spin />}
-                                {!spinner && <span>Enviar <MdSend /></span>} */}
+                                {spinner && <FontAwesomeIcon icon={faSpinner} spin />}
+                                {!spinner && <span>Enviar <IoSendSharp /></span>}
                             </button>
                         </Button>
                     </ButtonMsg>
