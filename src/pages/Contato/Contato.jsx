@@ -171,7 +171,7 @@ export const Contato = () => {
                         <Button>
                             <button type="submit">
                                 {spinner && <FontAwesomeIcon icon={faSpinner} spin />}
-                                {/* {!spinner && <span>Enviar <IoSendSharp /></span>} */}
+                                {!spinner && <span>Enviar</span>}
                             </button>
                         </Button>
                     </ButtonMsg>
