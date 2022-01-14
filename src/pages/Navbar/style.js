@@ -21,6 +21,7 @@ export const NavLogo = styled.div`
     align-items: center;
 
     img {
+        /* height: 5rem; */
         cursor: pointer;
     }
         
