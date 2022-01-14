@@ -66,10 +66,10 @@ export const Footer = () => {
                 <div className="link">
                     <h3>Rede Social</h3>
                     <a href="https://www.facebook.com/Sensual-Moda-Intima-708833402783149" className="social">
-                        <FaFacebook size="3rem" />
+                        {/* <FaFacebook size="3rem" /> */}
                     </a>
                     <a href="https://www.instagram.com/sensual.moda.intima/" className="social">
-                        <FaInstagram size="3rem" />
+                        {/* <FaInstagram size="3rem" /> */}
                     </a>
                 </div>
             </RedeSocial>
