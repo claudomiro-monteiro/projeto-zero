@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-scroll'
-import { FaFacebook, FaInstagram, FaPhone, FaMailBulk, FaWhatsapp } from 'react-icons/fa'
+import { FaFacebook, FaInstagram, FaMailBulk, FaPhone, FaWhatsapp } from 'react-icons/fa'
 
 import { Adress, Footers, RedeSocial } from './style'
 
@@ -9,9 +9,7 @@ export const Footer = () => {
     return (
         <Footers>
             <RedeSocial>
-                {/* <div className="App"> */}
                 <div className="link">
-                    {/* <Router> */}
                     <h3>Pijamas</h3>
                     <Link className="social"
                         activeClass="active"
@@ -49,10 +47,8 @@ export const Footer = () => {
                     >
                         Pijama Infantil
                     </Link>
-                    {/* </Router> */}
                 </div>
                 <div className="link">
-                    {/* <Router> */}
                     <h3>Contato</h3>
                     <a href="tel:1231576205" className="social">
                         <FaPhone className="space" size="3rem" />
@@ -66,10 +62,8 @@ export const Footer = () => {
                         <FaMailBulk className="space" size="3rem" />
                         <div className="hide">sensualmdintima@gmail.com</div>
                     </a>
-                    {/* </Router> */}
                 </div>
                 <div className="link">
-                    {/* <Router> */}
                     <h3>Rede Social</h3>
                     <a href="https://www.facebook.com/Sensual-Moda-Intima-708833402783149" className="social">
                         <FaFacebook size="3rem" />
@@ -77,9 +71,7 @@ export const Footer = () => {
                     <a href="https://www.instagram.com/sensual.moda.intima/" className="social">
                         <FaInstagram size="3rem" />
                     </a>
-                    {/* </Router> */}
                 </div>
-                {/* </div> */}
             </RedeSocial>
             <Adress>
                 <span>Rua: Comendador Custódio Vieira, 15</span>

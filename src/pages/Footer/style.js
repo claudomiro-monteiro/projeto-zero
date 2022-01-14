@@ -54,6 +54,7 @@ export const Adress = styled.div`
     flex-flow: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     margin: 1rem;
     line-height: 2rem;
 `;
