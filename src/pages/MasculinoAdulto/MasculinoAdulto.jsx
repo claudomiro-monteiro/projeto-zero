@@ -7,7 +7,7 @@ import { MasculinoAdultoData } from './MasculinoAdultoData'
 export const MasculinoAdulto = () => {
     return (
         <ContainerWapper id="masculinoadulto">
-            <Title>Feminino Adulto</Title>
+            <Title>Masculino Adulto</Title>
             <Body>
                 {MasculinoAdultoData.map((card) => {
                     return (

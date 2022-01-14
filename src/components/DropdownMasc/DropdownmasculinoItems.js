@@ -1,14 +1,17 @@
 export const DropdowmMasculinoItems = [
     {
         title: 'Masculino Adulto',  
-        path: 'masculinoadulto'
+        path: 'masculinoadulto',
+        offset: -65
     },
     {
         title: 'Masculino Infantil',
-        path: 'masculinoinfantil'
+        path: 'masculinoinfantil',
+        offset: -65
     },
     {
         title: 'Cueca',
-        path: 'cueca'
+        path: 'cueca',
+        offset: -65
     }
 ]

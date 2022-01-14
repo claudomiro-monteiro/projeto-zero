@@ -153,11 +153,13 @@ export const ButtonMsg = styled.div`
     }
 
     @media (max-width: 425px) {
-        display: flex;
-        width: auto;
-        background: var(--msg);
-        padding: 1rem 2rem;
-        border-radius: 0.5rem;
+        .msg {
+            display: flex;
+            width: auto;
+            background: var(--msg);
+            padding: 1rem 2rem;
+            border-radius: 0.5rem;
+        }
     }
 `
 export const Button = styled.div`

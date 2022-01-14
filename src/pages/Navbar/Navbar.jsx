@@ -71,7 +71,7 @@ export const Navbar = ({ sidebar, setSidebar, open, handleClick }) => {
                             spy={true}
                             smooth={true}
                             hashSpy={true}
-                            offset={-60}
+                            offset={-65}
                             duration={400}
                             delay={100}
                         >
@@ -84,7 +84,7 @@ export const Navbar = ({ sidebar, setSidebar, open, handleClick }) => {
                             spy={true}
                             smooth={true}
                             hashSpy={true}
-                            offset={-60}
+                            offset={-65}
                             duration={400}
                             delay={100}
                         >
@@ -97,7 +97,7 @@ export const Navbar = ({ sidebar, setSidebar, open, handleClick }) => {
                             spy={true}
                             smooth={true}
                             hashSpy={true}
-                            offset={-60}
+                            offset={-65}
                             duration={400}
                             delay={100}
                         >

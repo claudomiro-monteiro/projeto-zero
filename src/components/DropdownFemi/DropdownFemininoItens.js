@@ -2,12 +2,12 @@ export const DropdowmFemininoItems = [
     {
         title: 'Feminino Adulto',  
         path: 'femininoadulto',
-        offset: -60
+        offset: -65
     },
     {
         title: 'Feminino Infantil',
         path: 'masculinoadulto',
-        offset: -60
+        offset: -65
     },
     {
         title: 'Camisola',

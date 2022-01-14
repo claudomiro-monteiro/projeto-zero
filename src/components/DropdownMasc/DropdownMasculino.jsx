@@ -13,7 +13,7 @@ export const DropdownMasculino = ({ closeDropdown }) => {
                             spy={true}
                             smooth={true}
                             hashSpy={true}
-                            offset={-60}
+                            offset={item.offset}
                             duration={400}
                             delay={100}
                             onClick={closeDropdown}
