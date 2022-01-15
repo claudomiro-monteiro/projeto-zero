@@ -28,7 +28,7 @@ export const RedeSocial = styled.div`
         padding: 2rem 5rem;
     }
 
-    .social {
+    /* .social {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -36,7 +36,7 @@ export const RedeSocial = styled.div`
         margin: 0.5rem;
         text-decoration: none;
         color: var(--color);
-}
+} */
 
     .space {
         margin-right: 0.5rem;
@@ -48,6 +48,16 @@ export const RedeSocial = styled.div`
         }
     }
 `;
+
+export const LinkRede = styled.a`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0.5rem;
+    text-decoration: none;
+    color: var(--color);
+`
 
 export const Adress = styled.div`
     display: flex;
