@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaHome } from 'react-icons/fa'
 import { Link } from 'react-scroll'
 
 import { Adress, Footers, LinkRede, RedeSocial } from './style'
@@ -53,7 +54,7 @@ export const Footer = () => {
                         {/* <FaPhone size="3rem" /> */}
                         <div className="hide">(12) 3157-6205</div>
                     </LinkRede>
-                    <LinkRede href="https://wa.me/5512988383481"> Whats
+                    <LinkRede href="https://wa.me/5512988383481"> <FaHome />
                         {/* <BsWhatsapp className="space" size="3rem" /> */}
                         <div className="hide">(12) 98838-3481</div>
                     </LinkRede>
