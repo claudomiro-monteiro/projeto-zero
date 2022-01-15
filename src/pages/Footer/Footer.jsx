@@ -1,5 +1,5 @@
 import React from 'react'
-// import { BsWhatsapp } from 'react-icons/bs'
+import { BsWhatsapp } from 'react-icons/bs'
 import { Link } from 'react-scroll'
 
 import { Adress, Footers, LinkRede, RedeSocial } from './style'
@@ -50,25 +50,25 @@ export const Footer = () => {
                 </div>
                 <div className="link">
                     <h3>Contato</h3>
-                    <LinkRede href="tel:1231576205" className="social">
+                    <LinkRede href="tel:1231576205">
                         {/* <FaPhone size="3rem" /> */}
                         <div className="hide">(12) 3157-6205</div>
                     </LinkRede>
-                    <LinkRede href="https://wa.me/5512988383481" className="social">
-                        {/* <BsWhatsapp className="space" size="3rem" /> */}
+                    <LinkRede href="https://wa.me/5512988383481">
+                        <BsWhatsapp className="space" size="3rem" />
                         <div className="hide">(12) 98838-3481</div>
                     </LinkRede>
-                    <LinkRede href="mailto:sensualmdintima@gmail.com?subject=Contato pelo Site." className="social">
+                    <LinkRede href="mailto:sensualmdintima@gmail.com?subject=Contato pelo Site.">
                         {/* <FaMailBulk className="space" size="3rem" /> */}
                         <div className="hide">sensualmdintima@gmail.com</div>
                     </LinkRede>
                 </div>
                 <div className="link">
                     <h3>Rede Social</h3>
-                    <LinkRede href="https://www.facebook.com/Sensual-Moda-Intima-708833402783149" className="social">
+                    <LinkRede href="https://www.facebook.com/Sensual-Moda-Intima-708833402783149">
                         {/* <FaFacebookF size="3rem" /> */}
                     </LinkRede>
-                    <LinkRede href="https://www.instagram.com/sensual.moda.intima/" className="social">
+                    <LinkRede href="https://www.instagram.com/sensual.moda.intima/">
                         {/* <FaInstagram size="3rem" /> */}
                     </LinkRede>
                 </div>
