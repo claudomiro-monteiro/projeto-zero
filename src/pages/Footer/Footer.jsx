@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaPhone } from 'react-icons/fa'
+import { BsWhatsapp } from 'react-icons/bs'
 import { Link } from 'react-scroll'
 
 import { Adress, Footers, LinkRede, RedeSocial } from './style'
@@ -51,11 +51,11 @@ export const Footer = () => {
                 <div className="link">
                     <h3>Contato</h3>
                     <LinkRede href="tel:1231576205" className="social">
-                        <FaPhone size="3rem" />
+                        {/* <FaPhone size="3rem" /> */}
                         <div className="hide">(12) 3157-6205</div>
                     </LinkRede>
                     <LinkRede href="https://wa.me/5512988383481" className="social">
-                        {/* <BsWhatsapp className="space" size="3rem" /> */}
+                        <BsWhatsapp className="space" size="3rem" />
                         <div className="hide">(12) 98838-3481</div>
                     </LinkRede>
                     <LinkRede href="mailto:sensualmdintima@gmail.com?subject=Contato pelo Site." className="social">
