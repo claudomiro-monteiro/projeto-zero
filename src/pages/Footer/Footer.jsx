@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-scroll'
-import { FaFacebookF } from 'react-icons/fa'
+import { FaFacebookF } from 'react-icons/fa';
 
 import { Adress, Footers, RedeSocial } from './style'
 
