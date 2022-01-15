@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-scroll'
-import { FaWhatsapp } from 'react-icons/fa'
+import { FaFacebookF } from 'react-icons/fa'
 
 import { Adress, Footers, RedeSocial } from './style'
 
@@ -55,7 +55,7 @@ export const Footer = () => {
                         <div className="hide">(12) 3157-6205</div>
                     </a>
                     <a href="https://wa.me/5512988383481" className="social">
-                        <FaWhatsapp className="space" size="3rem" />
+                        {/* <FaWhatsapp className="space" size="3rem" /> */}
                         <div className="hide">(12) 98838-3481</div>
                     </a>
                     <a href="mailto:sensualmdintima@gmail.com?subject=Contato pelo Site." className="social">
@@ -66,7 +66,7 @@ export const Footer = () => {
                 <div className="link">
                     <h3>Rede Social</h3>
                     <a href="https://www.facebook.com/Sensual-Moda-Intima-708833402783149" className="social">
-                        {/* <FaFacebook size="3rem" /> */}
+                        <FaFacebookF size="3rem" />
                     </a>
                     <a href="https://www.instagram.com/sensual.moda.intima/" className="social">
                         {/* <FaInstagram size="3rem" /> */}
