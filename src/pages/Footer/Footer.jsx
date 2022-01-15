@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-scroll'
+import { FaPhone } from 'react-icons/fa'
 
 import { Adress, Footers, RedeSocial } from './style'
 
@@ -50,7 +51,7 @@ export const Footer = () => {
                 <div className="link">
                     <h3>Contato</h3>
                     <a href="tel:1231576205" className="social">
-                        {/* <FaPhone className="space" size="3rem" /> */}
+                        <FaPhone size="3rem" />
                         <div className="hide">(12) 3157-6205</div>
                     </a>
                     <a href="https://wa.me/5512988383481" className="social">
