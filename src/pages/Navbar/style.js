@@ -8,7 +8,8 @@ export const Nav = styled.nav`
     width: 100%;
     height: 6rem;
     background: var(--goldenrod);
-    font: 500 1.6rem 'Yuji Syuku', serif;
+    font: var(--yuji);
+    /* color: red; */
     padding: 0 4rem;
     /* position: fixed; */
     position: -webkit-sticky;
@@ -48,7 +49,7 @@ export const Li = styled.li`
     /* width: 100%; */
 `
 export const Link = styled(LinkS)`
-    font-size: 1.8rem;
+    font: var(--yuji);
     width: 100%;
     padding: 0.8rem 2rem;
     color: var(--color);

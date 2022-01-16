@@ -30,7 +30,6 @@ export const CardContainer = styled.div`
 `;
 
 export const CardTitle = styled.div`
-    font-size: 1.8rem;
     text-align: center;
     padding: 1rem;
 `;

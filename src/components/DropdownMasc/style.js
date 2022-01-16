@@ -28,7 +28,7 @@ export const List = styled.li`
 `
 
 export const Link = styled(LinkS)`
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     width: 100%;
     padding: 0.8rem 2rem;
     color: var(--backgroundnavbar);

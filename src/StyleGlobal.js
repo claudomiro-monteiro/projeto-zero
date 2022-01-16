@@ -22,9 +22,9 @@ export const GlobalStyle = createGlobalStyle`
         --msg: #3CB371;
         --msgerro: #FC0101;
 
-        --roboto: 400 1.6rem 'Roboto Slab', serif;
-        --playfair: 400 1.6rem 'Playfair Display', serif;
-        --yuji: 400 1.6rem 'Yuji Syuku', serif;
+        --roboto: 400 1.8rem 'Roboto Slab', serif;
+        --playfair: 400 1.8rem 'Playfair Display', serif;
+        --yuji: 400 1.8rem 'Yuji Syuku', serif;
 
         font-size: 62.5%;
 
@@ -40,7 +40,7 @@ export const GlobalStyle = createGlobalStyle`
         justify-content: center;
         background: var(--background);
         color: var(--color);
-        font: 500 1.6rem 'Playfair Display', serif;
+        font: var(--playfair);
         height: 100vh;
         width: 100%;
         /* overflow-x: hidden; */
