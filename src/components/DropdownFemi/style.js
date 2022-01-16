@@ -29,7 +29,6 @@ export const List = styled.li`
 `
 
 export const Link = styled(LinkS)`
-    /* font-size: 3rem; */
     width: 100%;
     padding: 0.8rem 2rem;
     color: var(--backgroundnavbar);
@@ -43,6 +42,5 @@ export const Link = styled(LinkS)`
 
         @media (max-width: 768px) {
             padding-left: 6rem;
-            /* font-size: 2rem; */
         }
 `

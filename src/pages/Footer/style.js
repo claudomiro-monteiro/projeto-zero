@@ -8,7 +8,6 @@ export const Footers = styled.div`
     background: var(--goldenrod);
     height: 100%;
     font: var(--roboto);
-    font-size: 1.8rem;
     padding: 2rem;
 `;
 
@@ -27,16 +26,6 @@ export const RedeSocial = styled.div`
         justify-content: center; 
         padding: 2rem 5rem;
     }
-
-    /* .social {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        cursor: pointer;
-        margin: 0.5rem;
-        text-decoration: none;
-        color: var(--color);
-} */
 
     .space {
         margin-right: 0.5rem;
