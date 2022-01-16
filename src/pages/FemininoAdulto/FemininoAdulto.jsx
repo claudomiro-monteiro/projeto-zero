@@ -4,13 +4,11 @@ import { Body, CardBody, CardContainer, CardImage, CardTitle } from '../../compo
 import { ContainerWapper, Title } from '../../components/ContainerWapper/style'
 import { FemininoAdultoData } from './FemininoAdultoData'
 
-import { AiFillHome } from 'react-icons/ai'
 
 export const FemininoAdulto = () => {
     return (
         <ContainerWapper id="femininoadulto">
             <Title>Feminino Adulto</Title>
-            <AiFillHome />
             <Body>
                 {FemininoAdultoData.map((card) => {
                     return (

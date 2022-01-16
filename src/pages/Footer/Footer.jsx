@@ -1,9 +1,6 @@
 import React from 'react'
 import { Link } from 'react-scroll'
-// import { FaInstagram } from "react-icons/fa";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
-
+import { FaInstagram } from 'react-icons/fa'
 import { Adress, Footers, LinkRede, RedeSocial } from './style'
 
 export const Footer = () => {
@@ -72,8 +69,7 @@ export const Footer = () => {
                             {/* <FaFacebookF size="3rem" /> */}
                         </LinkRede>
                         <LinkRede href="https://www.instagram.com/sensual.moda.intima/">
-                            {/* <FaInstagram /> */}
-                            <FontAwesomeIcon icon={faCoffee}/>
+                            <FaInstagram />
                         </LinkRede>
                     </div>
                 </RedeSocial>
