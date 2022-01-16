@@ -1,6 +1,6 @@
 import React from 'react'
-import { FaInstagram } from "react-icons/fa";
 import { Link } from 'react-scroll'
+import { FaInstagram } from "react-icons/fa";
 
 import { Adress, Footers, LinkRede, RedeSocial } from './style'
 
