@@ -4,8 +4,6 @@ import { Link } from 'react-scroll'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
-import { FaBeer } from 'react-icons/fa';
-
 import { Adress, Footers, LinkRede, RedeSocial } from './style'
 
 export const Footer = () => {
@@ -76,7 +74,6 @@ export const Footer = () => {
                         <LinkRede href="https://www.instagram.com/sensual.moda.intima/">
                             {/* <FaInstagram /> */}
                             <FontAwesomeIcon icon={faCoffee}/>
-                            <h3> Lets go for a <FaBeer />? </h3>
                         </LinkRede>
                     </div>
                 </RedeSocial>
