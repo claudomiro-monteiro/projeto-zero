@@ -1,5 +1,7 @@
 import React from 'react';
+import { FaFacebook, FaInstagram, FaWhatsapp } from 'react-icons/fa';
 import { Link } from 'react-scroll';
+import { RedeLi, RedeUl } from '../Sidebar/style';
 import { Adress, Footers, LinkRede, RedeSocial } from './style';
 
 export const Footer = () => {
@@ -78,6 +80,23 @@ export const Footer = () => {
                     <span>CEP: 12600-030</span>
                     <span>Todos Direitos Reservados | Sensual Moda Intima | 2021</span>
                 </Adress>
+                <RedeUl>
+                        <RedeLi>
+                            <LinkRede href="https://wa.me/5512988383481">
+                                <FaWhatsapp size="3rem"/>
+                            </LinkRede>
+                        </RedeLi>
+                        <RedeLi>
+                            <LinkRede href="https://www.facebook.com/Sensual-Moda-Intima-708833402783149">
+                                <FaFacebook size="3rem"/>
+                            </LinkRede>
+                        </RedeLi>
+                        <RedeLi>
+                            <LinkRede href="https://www.instagram.com/sensual.moda.intima/">
+                                <FaInstagram size="3rem"/>
+                            </LinkRede>
+                        </RedeLi>
+                    </RedeUl>
             </Footers>
         </>
     )
