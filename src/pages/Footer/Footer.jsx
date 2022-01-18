@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebook, FaInstagram } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaMailBulk, FaPhone, FaWhatsapp } from 'react-icons/fa';
 import { Link } from 'react-scroll';
 // import { RedeLi, RedeUl } from '../Sidebar/style';
 import { Adress, Footers, LinkRede, RedeSocial } from './style';
@@ -52,15 +52,15 @@ export const Footer = () => {
                     <div className="link">
                         <h3>Contato</h3>
                         <LinkRede href="tel:1231576205">
-                            {/* <FaPhone size="3rem" /> */}
+                            <FaPhone size="3rem" />
                             <div className="hide">(12) 3157-6205</div>
                         </LinkRede>
                         <LinkRede href="https://wa.me/5512988383481">
-                            {/* <BsWhatsapp className="space" size="3rem" /> */}
+                            <FaWhatsapp size="3rem" />
                             <div className="hide">(12) 98838-3481</div>
                         </LinkRede>
                         <LinkRede href="mailto:sensualmdintima@gmail.com?subject=Contato pelo Site.">
-                            {/* <FaMailBulk className="space" size="3rem" /> */}
+                            <FaMailBulk size="3rem" />
                             <div className="hide">sensualmdintima@gmail.com</div>
                         </LinkRede>
                     </div>

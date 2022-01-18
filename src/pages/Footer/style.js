@@ -27,10 +27,6 @@ export const RedeSocial = styled.div`
         padding: 2rem 5rem;
     }
 
-    .space {
-        margin-right: 0.5rem;
-}
-
     @media (max-width: 768px) {
         .hide {
             display: none;
@@ -46,6 +42,7 @@ export const LinkRede = styled.a`
     margin: 0.5rem;
     text-decoration: none;
     color: var(--color);
+    gap: 1rem;
 `
 
 export const Adress = styled.div`
