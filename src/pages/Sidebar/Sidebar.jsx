@@ -140,7 +140,7 @@ export const Sidebar = ({sidebar, setSidebar, handleClick}) => {
                         </RedeLi>
                         <RedeLi>
                             <LinkRede href="https://www.instagram.com/sensual.moda.intima/">
-                                <FaInstagram size="3rem"/>
+                                <FaInstagram size="3rem"/> <FaMailBulk />
                             </LinkRede>
                         </RedeLi>
                     </RedeUl>
