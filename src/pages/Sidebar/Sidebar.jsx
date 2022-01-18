@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react'
 import { animateScroll as scroll } from 'react-scroll'
-// import { FaFacebook, FaFemale, FaHome, FaInstagram, FaMailBulk, FaMale, FaMapMarkerAlt, FaWhatsapp } from "react-icons/fa";
+import { FaFacebook, FaFemale, FaHome, FaInstagram, FaMailBulk, FaMale, FaMapMarkerAlt, FaWhatsapp } from "react-icons/fa";
 import { RiUserSharedFill } from "react-icons/ri";
 import avatar from '../../assets/1009.png'
 
@@ -62,20 +62,20 @@ export const Sidebar = ({sidebar, setSidebar, handleClick}) => {
                             delay={100}
                             onClick={scrollToTop}
                             >
-                                {/* <FaHome /> */}
+                                <FaHome />
                                 Inicio
                             </Link>
                         </Li>
                         <Li>
                             <Link to="/" onClick={handleClickFemi}>
-                                {/* <FaFemale /> */}
+                                <FaFemale />
                                 Pijama Feminino
                             </Link>
                             {dropdowmFemi ? (<DropdownFeminino closeDropdown={closeDropdown} />) : null}
                         </Li>
                         <Li>
                             <Link to="/" onClick={handleClickMasc}>
-                                {/* <FaMale /> */}
+                                <FaMale />
                                 Pijama Masculino
                             </Link>
                             {dropdowmMasc ? (<DropdownMasculino closeDropdown={closeDropdown} />) : null}
@@ -106,7 +106,7 @@ export const Sidebar = ({sidebar, setSidebar, handleClick}) => {
                             delay={100}
                             onClick={closeDropdown}
                             >
-                                {/* <FaMapMarkerAlt /> */}
+                                <FaMapMarkerAlt />
                                 Localização
                             </Link>
                         </Li>
@@ -121,7 +121,7 @@ export const Sidebar = ({sidebar, setSidebar, handleClick}) => {
                             delay={100}
                             onClick={closeDropdown}
                             >
-                                {/* <FaMailBulk /> */}
+                                <FaMailBulk />
                                 Contato
                             </Link>
                         </Li>
@@ -130,17 +130,17 @@ export const Sidebar = ({sidebar, setSidebar, handleClick}) => {
                     <RedeUl>
                         <RedeLi>
                             <LinkRede href="https://wa.me/5512988383481">
-                                {/* <FaWhatsapp size="3rem"/> */}
+                                <FaWhatsapp size="3rem"/>
                             </LinkRede>
                         </RedeLi>
                         <RedeLi>
                             <LinkRede href="https://www.facebook.com/Sensual-Moda-Intima-708833402783149">
-                                {/* <FaFacebook size="3rem"/> */}
+                                <FaFacebook size="3rem"/>
                             </LinkRede>
                         </RedeLi>
                         <RedeLi>
                             <LinkRede href="https://www.instagram.com/sensual.moda.intima/">
-                                {/* <FaInstagram size="3rem"/> */}
+                                <FaInstagram size="3rem"/>
                             </LinkRede>
                         </RedeLi>
                     </RedeUl>
