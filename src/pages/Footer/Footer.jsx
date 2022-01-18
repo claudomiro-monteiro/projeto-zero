@@ -1,7 +1,7 @@
 import React from 'react';
-import { FaFacebook, FaInstagram, FaWhatsapp } from 'react-icons/fa';
+import { FaFacebook, FaInstagram } from 'react-icons/fa';
 import { Link } from 'react-scroll';
-import { RedeLi, RedeUl } from '../Sidebar/style';
+// import { RedeLi, RedeUl } from '../Sidebar/style';
 import { Adress, Footers, LinkRede, RedeSocial } from './style';
 
 export const Footer = () => {
@@ -67,10 +67,10 @@ export const Footer = () => {
                     <div className="link">
                         <h3>Rede Social</h3>
                         <LinkRede href="https://www.facebook.com/Sensual-Moda-Intima-708833402783149">
-                            {/* <FaFacebookF size="3rem" /> */}
+                            <FaFacebook size="3rem" />
                         </LinkRede>
                         <LinkRede href="https://www.instagram.com/sensual.moda.intima/">
-                            {/* <FaAddressBook /> */}
+                            <FaInstagram size="3rem" />
                         </LinkRede>
                     </div>
                 </RedeSocial>
@@ -80,7 +80,7 @@ export const Footer = () => {
                     <span>CEP: 12600-030</span>
                     <span>Todos Direitos Reservados | Sensual Moda Intima | 2021</span>
                 </Adress>
-                <RedeUl>
+                {/* <RedeUl>
                         <RedeLi>
                             <LinkRede href="https://wa.me/5512988383481">
                                 <FaWhatsapp size="3rem"/>
@@ -96,7 +96,7 @@ export const Footer = () => {
                                 <FaInstagram size="3rem"/>
                             </LinkRede>
                         </RedeLi>
-                    </RedeUl>
+                    </RedeUl> */}
             </Footers>
         </>
     )
