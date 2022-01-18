@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaInstagram, FaInstagramSquare } from 'react-icons/fa';
+import { FaAddressBook } from 'react-icons/fa';
 import { Link } from 'react-scroll';
 import { Adress, Footers, LinkRede, RedeSocial } from './style';
 
@@ -69,7 +69,7 @@ export const Footer = () => {
                             {/* <FaFacebookF size="3rem" /> */}
                         </LinkRede>
                         <LinkRede href="https://www.instagram.com/sensual.moda.intima/">
-                            <FaInstagram />
+                            <FaAddressBook />
                         </LinkRede>
                     </div>
                 </RedeSocial>
