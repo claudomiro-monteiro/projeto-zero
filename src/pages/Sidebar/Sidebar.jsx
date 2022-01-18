@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react'
 import { animateScroll as scroll } from 'react-scroll'
-import { FaAccessibleIcon, FaFacebook, FaFemale, FaHome, FaInstagram, FaMailBulk, FaMale, FaMapMarkerAlt, FaWhatsapp } from "react-icons/fa";
+import { FaFacebook, FaFemale, FaHome, FaInstagram, FaMailBulk, FaMale, FaMapMarkerAlt, FaWhatsapp } from 'react-icons/fa'
 import { RiUserSharedFill } from "react-icons/ri";
 import avatar from '../../assets/1009.png'
 
@@ -140,7 +140,7 @@ export const Sidebar = ({sidebar, setSidebar, handleClick}) => {
                         </RedeLi>
                         <RedeLi>
                             <LinkRede href="https://www.instagram.com/sensual.moda.intima/">
-                                <FaInstagram size="3rem"/> <FaAccessibleIcon />
+                                <FaInstagram size="3rem"/>
                             </LinkRede>
                         </RedeLi>
                     </RedeUl>
