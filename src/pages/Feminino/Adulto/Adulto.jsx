@@ -1,15 +1,15 @@
 import React from 'react'
-import Button from '../../components/Button/Button'
-import { Body, CardBody, CardContainer, CardImage, CardTitle } from '../../components/Card/style'
-import { ContainerWapper, Title } from '../../components/ContainerWapper/style'
-import { FemininoAdultoData } from './FemininoAdultoData'
+import Button from '../../../components/Button/Button'
+import { Body, CardBody, CardContainer, CardImage, CardTitle } from '../../../components/Card/style'
+import { ContainerWapper, Title } from '../../../components/ContainerWapper/style'
+import { AdultoData } from './AdultoData'
 
-export const FemininoAdulto = () => {
+export const Adulto = () => {
     return (
-        <ContainerWapper id="femininoadulto">
+        <ContainerWapper id="femininoadulto"> 
             <Title>Feminino Adulto</Title>
             <Body>
-                {FemininoAdultoData.map((card) => {
+                {AdultoData.map((card) => {
                     return (
                         <CardContainer key={card.id}>
                             <CardTitle>

@@ -4,7 +4,7 @@ import { Burger } from '../../components/ButtonBurger/Burger'
 import { DropdownFeminino } from '../../components/DropdownFemi/DropdownFeminino'
 import { DropdownMasculino } from '../../components/DropdownMasc/DropdownMasculino'
 import { Sidebar } from '../Sidebar/Sidebar'
-import logo_loja from '../../assets/logo_loja.svg'
+import logo_loja from '../../assets/logo.svg'
 import { Li, Link, Nav, NavLogo, Ul } from './style'
 
 export const Navbar = ({ sidebar, setSidebar, open, handleClick }) => {

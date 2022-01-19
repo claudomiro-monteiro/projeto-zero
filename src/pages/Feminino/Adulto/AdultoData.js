@@ -1,6 +1,6 @@
-import card1 from '../../assets/1009.png'
+import card1 from '../../../assets/1009.png'
 
-export const FemininoAdultoData = [
+export const AdultoData = [
     {
         id: 1,
         title: 'Baby Doll Alça Silk',
