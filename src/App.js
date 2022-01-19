@@ -1,12 +1,11 @@
 import { useState } from "react";
-// import { Carousel } from "./pages/Carousel/Carousel";
+import { Navbar } from "./pages/Navbar/Navbar";
 import { CarouselImage } from "./pages/Carousel/CarouselImage";
 import { Feminino } from "./pages/Feminino/Feminino";
-import { Contato } from "./pages/Contato/Contato";
-import { Localizacao } from "./pages/Localizacao/Localizacao";
-import { MasculinoAdulto } from "./pages/MasculinoAdulto/MasculinoAdulto";
-import { Navbar } from "./pages/Navbar/Navbar";
+import { Masculino } from "./pages/Masculino/Masculino";
 import { QuemSomos } from "./pages/QuemSomos/QuemSomos";
+import { Localizacao } from "./pages/Localizacao/Localizacao";
+import { Contato } from "./pages/Contato/Contato";
 import { Footer } from "./pages/Footer/Footer";
 
 function App() {
@@ -35,7 +34,7 @@ function App() {
         />
         <CarouselImage />
         <Feminino />
-        <MasculinoAdulto />
+        <Masculino />
         <QuemSomos />
         <Localizacao />
         <Contato />

@@ -24,7 +24,7 @@ export const GlobalStyle = createGlobalStyle`
 
         --roboto: 400 1.8rem 'Roboto Slab', serif;
         --playfair: 400 1.8rem 'Playfair Display', serif;
-        --yuji: 400 1.8rem 'Yuji Syuku', serif;
+        --yuji: 400 2rem 'Yuji Syuku', serif;
 
         font-size: 62.5%;
 
