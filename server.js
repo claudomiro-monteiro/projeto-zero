@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }))
 
 const upload = require('multer')();
-app.post("/contato", upload.single(''), (req, res, next) => {
+app.post("/contato", upload.none(), (req, res, next) => {
 
      // console.log(req.body)
      const nome = req.body.nome;
@@ -20,7 +20,7 @@ app.post("/contato", upload.single(''), (req, res, next) => {
      // res.json({nome, email, telefone, mensagem});
      
      require('./nodemailer/nodemail')(nome, email, telefone, mensagem)
-          .then(response => res.json(response.data))
+          .then(response => res.status(200).json(response.data))
           .catch(error => res.status(500).json(error));
 
 });
