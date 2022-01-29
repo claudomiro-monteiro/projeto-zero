@@ -51,7 +51,7 @@ export const Contato = () => {
                 setSpinner(false)
             })
             .catch((error) => {
-                console.log(error.response.status);
+                console.log(error);
                 setMsgErro(true)
                 setSpinner(false)
             });
