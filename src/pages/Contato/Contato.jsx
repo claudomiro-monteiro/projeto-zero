@@ -24,7 +24,8 @@ const InputMask = ({ mask, value, onChange, ...props }) => {
 export const Contato = () => {
 
     const api = axios.create({
-        baseURL: process.env.REACT_APP_API_URL
+    baseURL: process.env.REACT_APP_API_URL
+        // baseURL: 'http://localhost:3000'
     })
 
     const [msgOk, setMsgOk] = useState(false);
@@ -37,15 +38,15 @@ export const Contato = () => {
         setSpinner(true)
 
         const formData = new FormData();
+       
         Object.keys(values).forEach(key => formData.append(key, values[key]));
         api.post('/contato', formData, {
             headers: {
                 'Content-Type': 'application/x-www-form-urlencoded'
             }
         })
-
             .then(response => {
-                console.log(response.status)
+                console.log(response.data)
                 setMsgOk(true)
                 setSpinner(false)
             })
@@ -152,6 +153,7 @@ export const Contato = () => {
                                     name="mensagem"
                                     type="text"
                                     className="form_input"
+                                    rows="5"
                                     placeholder=" "
                                     onChange={formik.handleChange}
                                     onBlur={formik.handleBlur}
