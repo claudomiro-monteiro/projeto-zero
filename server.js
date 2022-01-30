@@ -16,8 +16,8 @@ app.post("/contato", upload.none(), (req, res, next) => {
      const mensagem = req.body.mensagem;
 
      require('./nodemailer/nodemail')(nome, email, telefone, mensagem)
-          .then(response => res.json(response.data))
-          .catch(error => res.status(500).json(error));
+     .then(response => res.json(response))
+     .catch(error => res.status(500).json(error));
 });
 
 app.use(express.static(path.join(__dirname, 'build')));

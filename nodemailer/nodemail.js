@@ -46,5 +46,5 @@ module.exports = (nome, email, telefone, mensagem) => {
                 smtp.close();
                 return reject(error);
             });
-    })
+    });
 }

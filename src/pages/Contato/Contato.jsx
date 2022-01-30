@@ -45,17 +45,17 @@ export const Contato = () => {
                 'Content-Type': 'application/x-www-form-urlencoded'
             }
         })
-            .then(response => {
-                console.log(response.data)
-                setMsgOk(true)
-                setSpinner(false)
-            })
-            .catch((error) => {
-                console.log(error);
-                setMsgErro(true)
-                setSpinner(false)
-            });
-
+        .then(response => {
+            console.log(response.data)
+            setMsgOk(true)
+            setSpinner(false)
+        })
+        .catch((error) => {
+            console.log(error);
+            setMsgErro(true)
+            setSpinner(false)
+        });
+        
         setTimeout(() => {
             setMsgOk(false);
             setMsgErro(false);
