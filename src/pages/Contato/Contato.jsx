@@ -43,6 +43,7 @@ export const Contato = () => {
         api.post('/contato', formData, {
             headers: {
                 'Content-Type': 'application/x-www-form-urlencoded'
+                // 'Content-Type': `multipart/form-data; boundary${formData._boundary}`
             }
         })
             .then(response => {
