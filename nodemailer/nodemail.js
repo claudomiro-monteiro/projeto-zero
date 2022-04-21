@@ -31,7 +31,7 @@ module.exports = (nome, email, telefone, mensagem) => {
 
     const mail = {
         from: `Contato pelo Site ${email}`,
-        to: 'bigodesan2022@gmail.com',
+        to: 'sensualmdintima@gmail.com',
         subject: `${nome} te enviou uma mensagem`,
         html: output
     }
