@@ -24,8 +24,8 @@ const InputMask = ({ mask, value, onChange, ...props }) => {
 export const Contato = () => {
 
     const api = axios.create({
-    // baseURL: process.env.REACT_APP_API_URL
-        baseURL: 'http://localhost:3000'
+    baseURL: process.env.REACT_APP_API_URL
+        // baseURL: 'http://localhost:3000'
     })
 
     const [msgOk, setMsgOk] = useState(false);
