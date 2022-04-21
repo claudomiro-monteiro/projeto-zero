@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="140"
+   height="40"
+   viewBox="0 0 37.041666 10.583337"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="logo_loja.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     height="49px"
+     inkscape:zoom="6.3166334"
+     inkscape:cx="77.177188"
+     inkscape:cy="16.701935"
+     inkscape:window-width="1360"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:10.2427px;line-height:1.25;font-family:Vivaldi;-inkscape-font-specification:Vivaldi;stroke-width:0.384099"
+       x="-0.93554968"
+       y="7.85254"
+       id="text1046"><tspan
+         sodipodi:role="line"
+         id="tspan1044"
+         style="font-size:10.2427px;stroke-width:0.384099"
+         x="-0.93554968"
+         y="7.85254">Sensual</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.50712px;line-height:1.25;font-family:'Cooper Std';-inkscape-font-specification:'Cooper Std';stroke-width:0.470086"
+       x="12.972528"
+       y="9.9952202"
+       id="text3088"><tspan
+         sodipodi:role="line"
+         id="tspan3086"
+         style="font-size:2.50712px;stroke-width:0.470086"
+         x="12.972528"
+         y="9.9952202">moda intima</tspan></text>
+    <g
+       id="g6815">
+      <g
+         id="g6801"
+         transform="translate(0,0.17354492)">
+        <circle
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path4836"
+           cx="33.116703"
+           cy="4.1035743"
+           r="1.7394991" />
+        <g
+           id="g6795">
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 33.116702,5.9877243 c 0,1.7462853 0,1.7462853 0,1.7462853"
+             id="path5097" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="M 33.989762,6.8728013 C 32.243641,6.8489326 32.243641,6.8489326 32.243641,6.8489326"
+             id="path5261" />
+        </g>
+      </g>
+      <g
+         id="g6805"
+         transform="rotate(-45,34.355094,2.9810333)">
+        <circle
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="circle5263"
+           cx="22.274616"
+           cy="26.176739"
+           r="1.7394991"
+           transform="rotate(-45)" />
+        <path
+           id="rect6100"
+           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.22;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 36.98961,1.984248 0.634857,0.631035 -1.333188,0.0071 0.0015,0.281971 1.33482,-0.0071 -0.634078,0.637905 0.399631,-0.0021 0.57378,-0.5773859 0.198806,-0.19996 -0.199958,-0.198806 -0.578446,-0.574787 z" />
+      </g>
+    </g>
+  </g>
+</svg>
